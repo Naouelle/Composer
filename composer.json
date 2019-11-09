@@ -1,0 +1,21 @@
+{
+    "name": "emma/quete_composer",
+    "description": "premiere quete composer",
+    "authors": [
+        {
+            "name": "emma",
+            "email": "emma.buscher@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0",
+        "monolog/monolog": "^2.0"
+
+        },
+
+        "autoload": {
+            "psr-4": {
+                "App\\Wcs\\": "src/Wcs"
+            }
+        }
+    }
